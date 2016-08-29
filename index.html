@@ -11,10 +11,10 @@
     padding:20px;
   }
   body{
-    background-image: url(JulietteK.github.io/pineapples.jpg);
+    /*background-image: url(JulietteK.github.io/pineapples.jpg);
     background-size: 100%;
     background-repeat:no-repeat;
-    text-align: center;
+    text-align: center;*/
   }
  h1 {
    font: normal 65px 'Limelight', cursive;
@@ -68,6 +68,27 @@ h4{
 </head>
 
 <body>
+<div class="bg-video--layer product-bg-video-layer">
+				<div class="video-bg" style='background-image: url("https://html5backgroundvideos.com/wp-content/uploads/2015/09/sailing-boats.jpg");'>
+					<video class="background-video hero-bg-video is-playing" id="bgvid" autoplay="autoplay" loop="loop" poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/sailing-boats.jpg">
+						<source src="https://d3k5xyayaartr5.cloudfront.net/sailing-boats/sailing-boats.mp4" type="video/mp4">
+						<source src="https://d3k5xyayaartr5.cloudfront.net/sailing-boats/sailing-boats.webm" type="video/webm">
+						<source src="https://d3k5xyayaartr5.cloudfront.net/sailing-boats/sailing-boats.ogv" type="video/ogg">
+					</video>
+				</div>
+				<div class="video-overlay"></div>
+				<div class="bg-video--controls">
+					<button class="bg-video--play-pause js-bg-video-play-pause"><i class="icon-pause"></i> <span class="sr-text">Play / Pause</span></button>
+					<button class="bg-video--adjust-overlay js-bg-video-adjust-overlay"><i class="icon-adjust"></i> <span class="sr-text">Adjust Overlay Opacity</span></button>
+					<button class="bg-video--fullscreen js-toggle-video-size"><i class="icon-fullscreen"></i> <span class="sr-text">Toggle Video Size</span></button>
+					<progress class="bg-video--progress js-bg-video-progress" value="15" max="100" min="0"></progress>
+				</div>
+				<div class="col-full bg-video--overlay">
+					<div class="bg-video--inner">
+												
+					</div>
+				</div>
+			</div>
 <header>
    <nav>
   <a href="/index.html">Home  </a> 
