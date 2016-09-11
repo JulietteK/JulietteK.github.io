@@ -50,7 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67dbc7', end
  }
  footer{
    padding:20px;
-   margin: 15px -10px 10px -10px;
+   /*margin: 15px -10px 10px -10px;*/
  }
  /*#intro{
    padding:0px;
@@ -70,7 +70,15 @@ color: white;
   a{
   text-decoration: none;
   padding: 8px;
+  opacity: 0.5;
+transition: opacity 0.3s ease 0s;
+-o-transition: opacity 0.3s ease 0s;
+-moz-transition: opacity 0.3s ease 0s;
+-webkit-transition: opacity 0.3s ease 0s;
   }
+  a:hover {
+  opacity: 1;
+}
   a:visited{
     color: white;
   }
@@ -100,7 +108,7 @@ div{
 
 <body>
 <section id="video">
-<img src="JulietteK.github.io/12.png" height="320"> 
+<img src="JulietteK.github.io/12.png" height="280"> 
 <video class="background-video hero-bg-video is-playing" id="bgvid" autoplay="autoplay" loop="loop" poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/sailing-boats.jpg">
 <source src="https://d3k5xyayaartr5.cloudfront.net/sailing-boats/sailing-boats.mp4" type="video/mp4">
 <source src="https://d3k5xyayaartr5.cloudfront.net/sailing-boats/sailing-boats.webm" type="video/webm">
